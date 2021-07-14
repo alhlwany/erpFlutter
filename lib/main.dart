@@ -29,17 +29,17 @@ class _SplashState extends State<Splash> {
       seconds: 3,
       navigateAfterSeconds: new GetStart(),
       title: new Text(
-        'Welcome In SplashScreen مرحبا بكم يا أصدقائى',
+        'Welcome In ',
         style: new TextStyle(fontWeight: FontWeight.bold, fontSize: 20.0,
-            color: Colors.white, fontFamily: MyFont),
+            color: BlueColor, fontFamily: MyFont),
       ),
-      image: new Image.network(
-          'https://flutter.io/images/catalog-widget-placeholder.png'),
-      backgroundColor: primaryColor,
+      image: new Image.asset(
+          "images/logo/nh_logo.jpg"),
+      backgroundColor: whiteColor,
       styleTextUnderTheLoader: new TextStyle(),
       photoSize: 100.0,
-      onClick: () => print("Egypt Resturant"),
-      loaderColor: whiteColor,// Colors.white,
+      onClick: () => print("NAHDA PACKING"),
+      loaderColor: BlueColor,// Colors.white,
     );
   }
 }
@@ -49,7 +49,7 @@ class AfterSplash extends StatelessWidget {
   Widget build(BuildContext context) {
     return new Scaffold(
       appBar: new AppBar(
-        title: new Text("Welcome In SplashScreen Package مرحبا بكم يا أصدقائى ",
+        title: new Text("Welcome ... ",
           style: TextStyle(
               color: Colors.white,  fontFamily: 'Rawy',fontSize: 50.0),),
         automaticallyImplyLeading: false,
