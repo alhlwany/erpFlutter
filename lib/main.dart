@@ -26,13 +26,14 @@ class _SplashState extends State<Splash> {
   @override
   Widget build(BuildContext context) {
     return new SplashScreen(
-      seconds: 3,
+      seconds: 6,
       navigateAfterSeconds: new GetStart(),
       title: new Text(
         'Welcome In ',
         style: new TextStyle(fontWeight: FontWeight.bold, fontSize: 20.0,
             color: BlueColor, fontFamily: MyFont),
       ),
+
       image: new Image.asset(
           "images/logo/nh_logo.jpg"),
       backgroundColor: whiteColor,
