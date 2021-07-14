@@ -8,9 +8,9 @@ const Color whiteColor = Color(0xFFFFFFFF);
 const Color yellowColor = Color(0xFFD3AF37);
 const yellowColor2 = Color(0xFFFFC12F);
 const BageColor = Color(0xFFFFE6Ac);
-const BlueColor = Color(0x11165F92);
+const BlueColor = Color(0xFf165F02);
 //// End Varibales ......................>
 
 ////  Fonts ......................>
-const MyFont="MR_AY";
+const MyFont="GE_ar";
 ////  End Fonts ......................>

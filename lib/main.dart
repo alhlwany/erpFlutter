@@ -29,14 +29,14 @@ class _SplashState extends State<Splash> {
       seconds: 6,
       navigateAfterSeconds: new GetStart(),
       title: new Text(
-        'Welcome In ',
+        'Welcome',
         style: new TextStyle(fontWeight: FontWeight.bold, fontSize: 20.0,
             color: BlueColor, fontFamily: MyFont),
       ),
 
       image: new Image.asset(
-          "images/logo/nh_logo.jpg"),
-      backgroundColor: whiteColor,
+          "images/logo/nh_logo.jpg",width: 20.0,height: 20.0,),
+      //backgroundColor: whiteColor,
       styleTextUnderTheLoader: new TextStyle(),
       photoSize: 100.0,
       onClick: () => print("NAHDA PACKING"),
