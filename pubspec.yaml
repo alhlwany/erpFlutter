@@ -58,9 +58,10 @@ flutter:
   - images/logo/sp_logo.png
   - images/ll.png
   - images/mac.png
-  - images/tip4.png
-  - images/tip5.png
-  - images/tip6.png
+  - images/tip4.jpg
+  - images/tip5.jpg
+  - images/tip6.jpg
+  - images/tip7.jpg
 
 
   # An image asset can refer to one or more resolution-specific "variants", see

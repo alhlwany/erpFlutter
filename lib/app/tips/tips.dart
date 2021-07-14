@@ -15,17 +15,17 @@ class _TipsState extends State<Tips> {
     {
       "title": "تبحث عن الدقة ؟",
       "info": "الدقة .. بداية الجودة فنحن نُصر على تقديم الدقة قبل أى شىء",
-      "image": "images/tip4.png"
+      "image": "images/tip4.jpg"
     },
     {
       "title": "تهتم بالتفاصيل ؟",
       "info": "التفاصيل تحتاج إلى الدقة فكل عنصر لدينا يتم تحليلة لأصغر تفاصيل ممكنة",
-      "image": "images/tip5.png"
+      "image": "images/tip5.jpg"
     },
     {
       "title": "تريد الإبتكار ؟",
       "info": "ينبع الإبتكـــار بتنوع التفاصيل العديده .. فثق إننا نسعى دائما للابتكار",
-      "image": "images/tip6.png"
+      "image": "images/tip6.jpg"
     }
   ];
   @override

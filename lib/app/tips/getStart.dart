@@ -31,7 +31,7 @@ class _GetStartState extends State<GetStart> {
                     //border: Border.all(color: yellowColor2,width: 5,),borderRadius: BorderRadius.circular(50),
                       //color: Colors.white,
                       image: DecorationImage(
-                          image: AssetImage("images/mac.png"), fit: BoxFit.fill)
+                          image: AssetImage("images/tip7.jpg"), fit: BoxFit.fill)
                   ),
                 ),
               ),
@@ -39,7 +39,7 @@ class _GetStartState extends State<GetStart> {
                   height: myheight,
                   padding: EdgeInsets.all(35.0),
                   decoration: BoxDecoration(
-                      color: BlueColor,
+                      color: primaryColor,
                       boxShadow: [
                         BoxShadow(
                             color: Colors.grey.withOpacity(0.5),
