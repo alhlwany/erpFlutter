@@ -30,17 +30,17 @@ class _SplashState extends State<Splash> {
       navigateAfterSeconds: new GetStart(),
       title: new Text(
         'Welcome ...',
-        style: new TextStyle(fontWeight: FontWeight.bold, fontSize: 20.0,
-            color: BlueColor, fontFamily: MyFont),
+        style: new TextStyle(fontWeight: FontWeight.normal, fontSize: 25.0,
+            color: whiteColor, fontFamily: MyFont),
       ),
 
       image: new Image.asset(
-          "images/logo/nh_logo.jpg",width: 220.0,height: 220.0,),
-      //backgroundColor: whiteColor,
+          "images/ll.png",width: 320.0,height: 320.0,),
+      backgroundColor: BlueColor,
       styleTextUnderTheLoader: new TextStyle(fontFamily: MyFont),
       photoSize: 100.0,
       onClick: () => print("NAHDA PACKING"),
-      loaderColor: BlueColor,// Colors.white,
+      loaderColor: whiteColor,// Colors.white,
     );
   }
 }
