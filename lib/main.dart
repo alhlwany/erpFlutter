@@ -29,15 +29,15 @@ class _SplashState extends State<Splash> {
       seconds: 6,
       navigateAfterSeconds: new GetStart(),
       title: new Text(
-        'Welcome',
+        'Welcome ...',
         style: new TextStyle(fontWeight: FontWeight.bold, fontSize: 20.0,
             color: BlueColor, fontFamily: MyFont),
       ),
 
       image: new Image.asset(
-          "images/logo/nh_logo.jpg",width: 20.0,height: 20.0,),
+          "images/logo/nh_logo.jpg",width: 220.0,height: 220.0,),
       //backgroundColor: whiteColor,
-      styleTextUnderTheLoader: new TextStyle(),
+      styleTextUnderTheLoader: new TextStyle(fontFamily: MyFont),
       photoSize: 100.0,
       onClick: () => print("NAHDA PACKING"),
       loaderColor: BlueColor,// Colors.white,
@@ -52,13 +52,13 @@ class AfterSplash extends StatelessWidget {
       appBar: new AppBar(
         title: new Text("Welcome ... ",
           style: TextStyle(
-              color: Colors.white,  fontFamily: 'Rawy',fontSize: 50.0),),
+              color: Colors.white,   fontFamily: MyFont,fontSize: 50.0)),
         automaticallyImplyLeading: false,
       ),
       body: new Center(
         child: new Text(
           "Succeeded!",
-          style: new TextStyle(fontWeight: FontWeight.bold, fontSize: 30.0),
+          style: new TextStyle(fontWeight: FontWeight.bold, fontSize: 30.0, fontFamily: MyFont),
         ),
       ),
     );
