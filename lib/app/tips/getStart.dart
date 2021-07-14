@@ -31,7 +31,7 @@ class _GetStartState extends State<GetStart> {
                     //border: Border.all(color: yellowColor2,width: 5,),borderRadius: BorderRadius.circular(50),
                       //color: Colors.white,
                       image: DecorationImage(
-                          image: AssetImage("images/food2.png"), fit: BoxFit.fill)
+                          image: AssetImage("images/mac.png"), fit: BoxFit.fill)
                   ),
                 ),
               ),
@@ -39,7 +39,7 @@ class _GetStartState extends State<GetStart> {
                   height: myheight,
                   padding: EdgeInsets.all(35.0),
                   decoration: BoxDecoration(
-                      color: primaryColor,
+                      color: BlueColor,
                       boxShadow: [
                         BoxShadow(
                             color: Colors.grey.withOpacity(0.5),
@@ -58,7 +58,7 @@ class _GetStartState extends State<GetStart> {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: <Widget>[
                           Text(
-                            "اشهى المأكولات",
+                            "الجودة شعــــــارنا",
                             textAlign: TextAlign.right,
                             style: TextStyle(
                                 color: Colors.white,
@@ -67,7 +67,7 @@ class _GetStartState extends State<GetStart> {
                                 fontFamily: MyFont),
                           ),
                           Text(
-                              "افضل المأكولات تجدونها في مطعمنا العديد من المأكولات لدينا",
+                              "جودة التصنيــع الشعــــار الرئيسى لخطوط الإنتــاج لدينا فعندنا الخبرة , والمهارة , والإبتكار !!! ",
                               textAlign: TextAlign.right,
                               style: TextStyle(
                                 color: Colors.white,
